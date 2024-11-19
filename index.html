@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <h1 style="font-size: 50px;">TANUSHI PAL</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark fas" onclick="closemenu()" ></i>
+                    
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+                 
+            </nav>
+            <div class="headertext">
+                <p>SOFTWARE AND WEB DEVLOPER</p>
+                <h1>HI,I'm <span>Tanushi</span>
+                    <br> Pal from Meerut UP</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                        <img src="img/images4.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi impedit quos maxime eos quis omnis! Ad sed molestiae consequatur labore!
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia ea saepe nisi iusto eveniet omnis corrupti vel officiis dicta placeat?
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skils')">SKILLS</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            
+                            <li><span>Frontend Devlopment</span><br>Desiging Web/App Interfaces</li>
+                            <li><span>Backend Devloper</span><br>PHP/devlopment</li>
+                            <li><span>Wordpress and CMS</span><br>Desiging Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>DM TRainne</span><br>Stratospher It solution Pvt Ltd</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            
+                            
+                            <li><span>BCA</span><br>Bachelors In computer Application From forte instituion of technology</li>
+                            <li><span>MCA</span><br>Master In computer Application From Aktu Lukhnow(UP)</li>
+                            <li><span>Java Full stack Devlopment</span><br>QspiDer and jspider</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+     <div id="services">
+        <div class="container">
+            <h1 class="subtitle">MY SERVICES</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, quas.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Backend Devlopment</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, quas.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Web Devlopment</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, quas.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- protofi=olio -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">MY WORK</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/images.jpeg" alt=""height="500px" width="200px">
+                    <div class="layer">
+                        <h3>soccial Media Apps</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, asperiores.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/images6.jpeg" alt="" height="500px" width="200px">
+                    <div class="layer">
+                        <h3>soccial Media Apps</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, asperiores.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/images4.jpeg" alt=""height="500px" width="200px">
+                    <div class="layer">
+                        <h3>soccial Media Apps</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, asperiores.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+      </div>
+      <!-- Contact Us -->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>Contact@example.com</p>
+                    <p>9557952143</p>
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-LinkedIn"></i></a>
+                    </div>
+                    <a href="img/Tanushipal (1).pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text"name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Name" placeholder=" your Email">
+                        <textarea name="Message" id="" rows="6" placeholder="your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        ;'l̥- bjy'
+        <div class="copyright">/
+            <p>Copyright @Tanusshi Pal</p>
+        </div>
+       </div>
+</body>
+<script>
+    var tablinks=document.getElementsByClassName('tab-links');
+    var tabcontents=document.getElementsByClassName('tab-content');
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+    {
+       tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents)
+    {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+    };
+    var sidemenu=document.getElementById('sidemenu');
+    function openmenu()
+    {
+        sidemenu.style.right="0";
+
+    }
+    function closemenu()
+    {
+        sidemenu.style.right="-200px";
+    }
+</script>
+</html>
